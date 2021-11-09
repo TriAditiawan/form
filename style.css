@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2,
+button,
+h3,
+label {
+  letter-spacing: 1px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+
+  background-color: #2e3138;
+}
+header h1 {
+  font-size: 40px;
+  color: #9e9e9e;
+  text-align: center;
+  padding-top: 25px;
+}
+header h1 span {
+  color: #00c2ff;
+}
+header h1::after {
+  content: "Jl. Koramil RT 02/02 Ds. Purwasari Kec. Cicurug Kab. Sukabumi Kode Pos 43357";
+  font-size: 14px;
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+header p {
+  width: 350px;
+  margin: auto;
+}
+.container {
+  background-color: #22252a;
+  border-radius: 15px 15px 0 0;
+  width: 800px;
+  margin: 50px auto;
+  padding-bottom: 25px;
+}
+.container .header {
+  border-radius: 15px 15px 0 0;
+  background-color: #454955;
+  padding: 20px 0;
+  color: white;
+}
+.container .header h3 {
+  color: #9e9e9e;
+  text-align: center;
+  font-size: 22px;
+  width: 90%;
+  margin: auto;
+  text-transform: uppercase;
+}
+.container .header h3 span {
+  color: #00ccff;
+}
+form {
+  padding: 25px 30px;
+}
+form label {
+  font-weight: bold;
+  color: #9e9e9e;
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+}
+textarea {
+  background-color: #454955;
+  color: #9e9e9e;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+input[type="text"] {
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  background-color: #454955;
+  color: #9e9e9e;
+  border: none;
+  border-radius: 5px;
+}
+input[type="radio"] {
+  height: 15px;
+  width: 15px;
+}
+form h5 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  margin-left: -15px;
+
+  color: #9e9e9e;
+}
+form h5 span {
+  color: #23c0e7;
+}
+.jk {
+  display: inline;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+button {
+  margin-top: 25px;
+  width: 100%;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: #22a2d0;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .container .header h3 {
+    font-size: 18px;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+  .container {
+    width: 90% !important;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
